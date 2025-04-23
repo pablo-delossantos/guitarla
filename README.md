@@ -1,12 +1,43 @@
-# React + Vite
+# GuitarLA 🎸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto desarrollado en React.js como parte del curso [React de Principiante a Experto - Más de 10 Aplicaciones](https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/) de Udemy.
 
-Currently, two official plugins are available:
+## 🚀 Scripts disponibles
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+En el directorio del proyecto, puedes ejecutar:
 
-## Expanding the ESLint configuration
+### `npm run dev`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Inicia el servidor de desarrollo con **Vite**. Abre [http://localhost:5173](http://localhost:5173) para verlo en el navegador.
+
+### `npm run build`
+
+Compila la aplicación para producción en la carpeta `dist/`.
+
+### `npm run preview`
+
+Sirve la versión de producción localmente para realizar pruebas finales.
+
+### `npm run lint`
+
+Ejecuta ESLint para analizar el código y detectar errores o malas prácticas.
+
+## 🧱 Tecnologías utilizadas
+
+- React 19
+- Vite 6
+- ESLint
+- TypeScript (tipos de React incluidos)
+- Plugin React SWC para Vite
+
+## 📦 Estructura general
+
+El proyecto está configurado como un módulo (`type: "module"`) y utiliza Vite como bundler. Las dependencias están organizadas para soportar desarrollo moderno con React.
+
+## 📚 Curso relacionado
+
+Este proyecto es una parte práctica del curso mencionado arriba. Puedes seguir el desarrollo paso a paso siguiendo el curso en Udemy.
+
+---
+
+Desarrollado con ❤️ como parte del aprendizaje de React.
