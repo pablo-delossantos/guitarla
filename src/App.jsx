@@ -7,8 +7,6 @@ function App() {
   const [data, setData] = useState(db)
   const [cart, setCart] = useState([])
 
-  console.log(data)
-
   return (
     <>
       <Header />
